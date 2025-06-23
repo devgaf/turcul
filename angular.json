@@ -67,7 +67,11 @@
               "buildTarget": "turcul:build:production"
             },
             "development": {
-              "buildTarget": "turcul:build:development"
+              "buildTarget": "turcul:build:development",
+              "ssl": true,
+              "sslKey": "ssl/key.pem",
+              "sslCert": "ssl/cert.pem",
+              "port": 4200
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
