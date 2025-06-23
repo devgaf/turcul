@@ -404,3 +404,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+tmp/
+log/
+*.tmp
+*.old
+*.log
+*.pem
+.angular/cache/
+# Rider's local history

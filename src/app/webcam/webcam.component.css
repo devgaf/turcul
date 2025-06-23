@@ -1,0 +1,10 @@
+.webcam-container iframe
+{
+  border: none; /* Elimina el borde del iframe */
+  margin: 0; /* Elimina el margen del iframe */
+  padding: 0; /* Elimina el padding del iframe */
+  box-sizing: border-box; /* Asegura que el tamaño del iframe incluya el
+}
+.webcam-container video {
+  object-fit: contain; /* Mantiene la relación de aspecto */
+}
